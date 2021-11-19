@@ -1,0 +1,16 @@
+Avant de lancer ce petit QCM, lancer phpMyAdmin.
+
+Ensuite créez une nouvelle base que vous nommerez 'quizz'.
+
+Ouvrez le fichier 'Requete Base Quizz'.txt, faite un copier de tout ce qu'il y a dedans.
+
+Se sont les ordres SQL pour créer les tables dans la base quizz.
+
+Une fois la base créez, clickez sur SQL et faite un clloer, puis executer.
+
+Voilà, les tables sont maintenant rempli dans la base.
+
+Vous pouvez maitenant vous amusez.
+
+
+Dez

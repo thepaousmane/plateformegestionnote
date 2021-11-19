@@ -1,0 +1,38 @@
+create table  questionnaire 
+(numquest integer primary key,
+question char(100) ,
+rep1 char(100),
+rep2 char(100),
+rep3 char(100),
+rep4 char(100),
+rep char(100));
+
+Insert Into questionnaire Values (1,'Un mot en informatique correspond à :','un nombre de byte qui dépend de la machine','64 bits','32 bits','une chaine ASCII','un nombre de byte qui dépend de la machine');
+Insert Into questionnaire Values (2,'UNICODE est:','un langage de programmation','un système de codage de caractères','un protocole de cryptage','une méthode de codage des entiers positifs','un système de codage de caractères');
+Insert Into questionnaire Values (3,'Un kilo-octet correspond à:','1000 bits','1024 bits','1024 octets','1000 octets','1024 octets');
+Insert Into questionnaire Values (4,'Le code ASCII peut-être assimilé à un tableau de correspondance entre:','une valeur et son adresse','un caractère et sa valeur numérique','un nombre et son inverse','une adresse mémoire et un contenu mémoire','un caractère et sa valeur numérique');
+Insert Into questionnaire Values (5,'Le nombre binaire 1011 vaut en décimal:','7','9','33','11','11');
+Insert Into questionnaire Values (6,'Le nombre binaire 0001 1010 vaut en héxadécimal:','F3','1D','1A','F4','1A');
+Insert Into questionnaire Values (7,'Quelle est la mascotte du PHP','une otarie','un éléphant','un pinguin','une grenouille','un éléphant');
+Insert Into questionnaire Values (8,'En PHP, quel est le mot-clé qui permet de déclarer une fonction ?','Fonction','Function','Declare_function','Programm','Function');
+Insert Into questionnaire Values (9,'En PHP, qu''est-ce qu''un array ?','un truc comestible dans le poisson','un tableau','un ensemble de variables mélangées en une seule','une classe','un tableau');
+Insert Into questionnaire Values (10,'En PHP, quelle fonction permet de choisir la base de données à utiliser ?','mysql_select_base','mysql_select_database','mysql_select_db','mysql_select_bd','mysql_select_db');
+Insert Into questionnaire Values (11,'Les packages Delphi compilés sont stockés avec l''extension:','.exe','.dpk','.prj','.bpl','.bpl');
+Insert Into questionnaire Values (12,'Qui a inventé la souris ?','Microsoft','IBM','Xerox','Apple','Xerox');
+Insert Into questionnaire Values (13,'De ces micro-ordinateurs, lequel est le plus ancien ?','IBM-PC','ZX81','Apple II','Amiga','Apple II');
+Insert Into questionnaire Values (14,'Quelle est l''origine du mot bug ?','du nom de William B. Bugg, un ingénieur','un insecte qui avait provoqué un faux contact dans un ordinateur','du nom de la société qui avait introduit le premier virus','des initiales Better Using Graphics','un insecte qui avait provoqué un faux contact dans un ordinateur');
+Insert Into questionnaire Values (15,'1959 a vu la naissance d''un composant révolutionnaire. C''était:','le premier circuit imprimé','le premier transistor','la première diode électrominescente','le premier circuit intégré','le premier circuit intégré');
+Insert Into questionnaire Values (16,'Quelle était la fréquence du premier micro-processeur (4004 d''Intel) ?','804 Hz','108 KHz','1 MHz','16 MHz','108 KHz');
+Insert Into questionnaire Values (17,'Quelle est la signification d''un WAN ?','Wide Area Network','Wite Area Network','Wite Arena Network','Wide Arena Network','Wide Area Network');
+Insert Into questionnaire Values (18,'Que veut dire DNS ?','Domain Name System','Direct Name System','Domain Name Serial','Direct Name Serial','Domain Name System');
+Insert Into questionnaire Values (19,'Que signifie HTML ?','HyperTime Medium Longuess','HyperText Markup Language','HyperText Media Language','HyperText Mark Language','HyperText Markup Language');
+Insert Into questionnaire Values (20,'Quel a été le premier navigateur ?','Mozaic','Navigator','Internet Explorer','Opera','Mozaic');
+
+
+create table  classement 
+(numclass MEDIUMINT NOT NULL AUTO_INCREMENT ,
+nom VARCHAR( 60 ) NOT NULL ,
+score INT NOT NULL ,
+INDEX (numclass) 
+) TYPE = innodb;
+

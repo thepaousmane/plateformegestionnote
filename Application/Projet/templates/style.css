@@ -1,0 +1,88 @@
+﻿body {
+	font-family: "MS Sans Serif", "MS Serif", Arial;
+	font-size: x-small;
+	font-style: normal;
+	color: white;
+	background-color: black;
+	text-transform: 10;
+	text-decoration: 1000;
+	padding: 0px;
+	margin: 0px;
+	border-style: none;
+	border-width: 0px;
+}
+
+	h1, h2, h3, h4{
+		font-family: "Arial", "Verdana", Arial;
+		font-weight: bolder;
+		color: #cc3366;
+		line-height: normal;
+		font-variant: normal;
+		text-transform: none;
+		text-decoration: none;
+		margin: 0px;
+		padding: 0px;
+		border: 0px;
+	}
+	h1 {
+		font-size: 10pt;
+		font-style: normal;
+		color: white;
+	}
+	h2 {
+		font-size: x-small;
+		font-style: normal;
+		font-size:8pt;
+		color:red;		
+		
+	}
+	h3 {
+		font-size: x-small;
+		font-style: normal;
+	}
+	h4 {
+		font-size: 10pt;
+		font-style: normal;
+		color: red;
+	}	
+#page{
+	margin: 5px auto;
+	padding: 0px;
+	width: 400px;
+	height: 600px;
+	border: 1px solid red;
+	
+}
+#header{
+	margin: 0px;
+	padding: 0px;
+	width: 900px;
+	height: 80px;
+	background: url(images/Quizz.jpg) no-repeat;
+	/*border: 1px solid black;*/
+}
+#search{
+	
+	margin: 0px;
+	padding: 0px;
+	width: 800px;
+	height: 1px;
+	/*position:absolute;*/
+	left: 650px;
+	top: 100px;
+	/*border: 1px solid black;*/
+}
+
+
+#content{
+
+	margin: 100px 100px;
+	padding: 0px;
+	width: 450px;
+	float:left;
+	border: none;
+}
+.clear{
+	clear: both;
+	visibility: hidden;
+}
